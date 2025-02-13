@@ -1,0 +1,89 @@
+.div__formulario {
+  width: 60rem;
+
+  margin: 0 auto;
+  padding: 2rem;
+  // margin-top: 130px;
+  border-radius: 1rem;
+
+  &__inputs {
+    display: grid;
+    &__campo {
+      margin-top: 1rem;
+      &--style {
+        width: 25rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}
+.cuenta__h {
+  color: white;
+  margin-top: 9rem;
+}
+
+.boton {
+  padding: 0.75rem;
+  background-color: rgba(0, 0, 0, 0.534);
+  color: white;
+  border: none;
+  border-radius: 10%;
+  font-weight: 700;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.205);
+  }
+}
+.logOutButton {
+  padding: 0.75rem;
+
+  background-color: rgba(0, 0, 0, 0.534);
+  color: white;
+  border: none;
+  border-radius: 10%;
+  font-weight: 700;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.205);
+  }
+}
+.welcome__div {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.welcome__link {
+  padding: 0.6rem 1.3rem;
+  background-color: rgba(0, 0, 0, 0.534);
+
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 10%;
+  font-weight: 600;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.205);
+  }
+}
+
+.light {
+  .div__formulario {
+    background-color: rgba(245, 245, 245, 0.438);
+    color: white;
+  }
+  .welcome__p {
+    color: white;
+    margin-top: 9rem;
+  }
+}
+.dark {
+  .div__formulario {
+    background-color: rgba(29, 27, 27, 0.664);
+    color: white;
+  }
+  .welcome__p {
+    color: white;
+    margin-top: 9rem;
+  }
+}

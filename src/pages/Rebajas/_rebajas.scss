@@ -1,0 +1,13 @@
+.offers__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 120px 90px 1px 90px;
+}
+.offers__h {
+  margin-top: 9rem;
+}
+.light {
+  .offers__h {
+    color: white;
+  }
+}

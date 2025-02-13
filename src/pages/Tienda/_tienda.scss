@@ -1,0 +1,19 @@
+.shop__h {
+  margin-top: 9rem;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+
+  font-family: 'Josefin Sans', sans-serif;
+
+  font-family: 'Righteous', cursive;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-top: 6rem;
+}
+.light {
+  color: white;
+}
